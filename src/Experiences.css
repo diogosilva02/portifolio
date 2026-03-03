@@ -90,19 +90,18 @@
 }
 
 @media (max-width: 768px) {
-
-  .experiencia-container{
+  .experiencia-container {
     text-align: center;
   }
 
   .experiencia-conteudo {
     flex-direction: column;
     text-align: center;
-    width: 100% ;
+    width: 100%;
   }
 
   .abas-empresas {
-    flex-direction: row;
+    flex-direction: column;
     overflow-x: auto;
     border-left: none;
     border-bottom: 2px solid #f75105;
@@ -117,7 +116,6 @@
   }
 
   .aba-botao.ativo {
-    border-left: none;
-    border-bottom: 2px solid #f75105;
+    border-left: 2px solid #f75105;
   }
 }

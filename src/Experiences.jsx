@@ -7,7 +7,7 @@ export function Experiences() {
 
   return (
     <section className="experiencia-container">
-      <h2>Minha experiência:</h2>
+      <h2>Minhas experiências:</h2>
 
       <div className="experiencia-conteudo">
        

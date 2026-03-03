@@ -108,12 +108,6 @@
   transform: translateY(-2px);
 }
 
-@media (max-width: 500px) {
-  .links-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 .DownArrow {
   display: flex;
   justify-content: center;
@@ -178,11 +172,10 @@
 
   .social-links {
     grid-template-columns: 1fr;
-    width: 400px;
+    width: 300px;
   }
 
   .button-link {
-    padding: 12px 20px; /* Reduz o padding interno dos botões */
     align-items: center;
   }
 
@@ -192,7 +185,7 @@
   }
 
   .sobre-texto {
-    text-align: center; /* Centraliza o texto no mobile para melhor leitura */
+    text-align: left; /* Centraliza o texto no mobile para melhor leitura */
   }
 }
 
