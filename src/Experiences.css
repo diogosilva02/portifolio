@@ -90,8 +90,15 @@
 }
 
 @media (max-width: 768px) {
+
+  .experiencia-container{
+    text-align: center;
+  }
+
   .experiencia-conteudo {
     flex-direction: column;
+    text-align: center;
+    width: 100% ;
   }
 
   .abas-empresas {
